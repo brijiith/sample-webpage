@@ -221,7 +221,6 @@ color: #2F3035;
 .main-box{
 padding-top: 164px;
 display: flex;
-gap:124px;
 justify-content: space-between;
 }
 .lft-box h3{margin-top: 28px; 
@@ -265,6 +264,7 @@ color: #86899B;
 }
 .rght-box{
 position: relative;
+width: 400px;
 }
 .outer{
     position: relative;
@@ -362,8 +362,6 @@ margin-bottom: 24px;}
 
 .small-box{
     margin: 100px auto 98px auto;
-width: 560px;
-height: 320px;
 display: flex;
 flex-direction: column;
 align-items: center;
@@ -378,7 +376,7 @@ font-weight: normal;
 font-size: 32px;
 line-height: 36px;
 color: #2F3035;
-text-align: justify;
+text-align: center
 }
 .small-box h3{
 margin: 0;
@@ -541,12 +539,12 @@ text-decoration-line: underline;
 color: #86899B;
 }
 
-@media only screen and (max-width: 720px)
+@media only screen and (max-width: 480px)
  {
    
   .section1{
    width: 235%;
-    height: auto;
+    height: auto;   
     background-size:cover;
     border: 1px solid black;
   }
@@ -567,26 +565,37 @@ color: #86899B;
       width: 50%;
       height: 50%;
   }
-  .bottom-box{width: 80%;
-      margin: auto;
+  .bottom-box{width: 60%;
+      /* margin: auto; */
       flex-direction: column;
+      padding:2rem;
   }
-  .row1{padding-top: 10%;
-      margin: auto;
+  .row1{ 
+      /* padding-top: 10%; */
+      /* margin: auto; */
       height: 50%;
+      margin: 0;
+      margin-bottom: 5%;
+
+  }
+  .row1 br{
+      display: none;
   }
   .row1 li{
       text-align: left;
   }
   .row2{
-    margin: auto;
+    /* margin: auto; */
     height: 50%;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
 }
 .row2-box{
-    margin: 10% auto 10% auto;
+    /* margin: 10% auto 10% auto; */
 }
 .row2-button{
-    margin-bottom: 10%;
+    /* margin-bottom: 10%; */
 }
 #section2{width: 235%;
    margin-left: auto;
@@ -611,7 +620,9 @@ color: #86899B;
     text-align: center;
     padding-left: 5%;
 }
-
+.lft-box{
+    margin-bottom: 10%;
+}
 .lft-btm-text{padding-left: 13%;}
 .lft-btm-text h2{
     padding-left: 0;
@@ -676,8 +687,8 @@ footer{width: 235%;
 }
 
 @media only screen 
-  and (min-device-width: 768px) 
-  and (max-device-width: 1024px) {
+  and (min-device-width: 480px) 
+  and (max-device-width: 1280px) {
     .section1{
         width: 100%;
          background-size:cover;
