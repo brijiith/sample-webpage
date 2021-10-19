@@ -665,48 +665,57 @@ input{
     text-align:left;}
 .rght-box{
     margin: auto;
-    width: 100%;
+    width: 280px;
+    height:625px ;
    position: relative;
 }
 .outer{
      width: 90%; 
-    
+    height: 571px;
 }
 .inner{
-     width: 90%; 
-     height: auto;
+     width: 227px;
+     height: 546px;
+     left:12px;
      
 }
 .msg-box h4{
     /* font-size: 9px; */
 }
 .msg-box p{
-    /* font-size: 9px; */
+    padding-left: 26px;
+    text-align: left;
 }
 
 .msg1{
     padding:3% 3%;
-    left: 15%;
+    left: 24px;
+    width: 230px;
 
-margin-bottom: 5%;
 }
 .msg2{
     padding:3% 3%;
-    left: 25%;
-   top:
+    left: 62px;
+   width: 201px;
 } 
 .msg3{
     padding:3% 3%;
-    left: 15%;
+    left: 24px;
+    width: 216px;
 } 
  .msg4{
     padding:3% 3%;
-    left:25%;
+    left:62px;
+    width: 211px;
 } 
 .msg5{
     padding:3% 3%;
-    left:15%;
+    left:24px;
+    width: 251px;
 } 
+.msg5 p{
+    padding-left: 10px;
+}
 
 
 
@@ -716,15 +725,23 @@ margin-bottom: 5%;
 #section3{
 
 }
-.content{margin: auto;
+.content{
+    /* margin: auto; */
     display: flex;
     flex-direction: column;
    
 }
-.boxes{margin: auto;
+.boxes{
+    /* margin: auto; */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    margin-bottom: 0;
+    text-align: left;
+}
+.boxes br{
+    display: none;
+   
 }
 .box-txtt{
     margin-bottom: 10%;
